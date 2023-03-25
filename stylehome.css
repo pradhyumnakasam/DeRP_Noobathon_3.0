@@ -36,7 +36,7 @@ body{
     color: white;
 
     width: 20%;
-    height: 68px;
+    height: 69px;
     box-sizing: border-box;
 }
 
@@ -63,7 +63,43 @@ body{
     border-radius: 20px;
     color: green;
 }
+#navbar2{
+    float:left;
+    background-color: coral;
+    color: white;
 
+    
+    height: 68px;
+    box-sizing: border-box;
+}
+#navbar2 ul{
+    
+    margin-left: 10%;
+    padding:0px;
+    list-style: none;
+}
+#navbar2 li{
+    border-width: 20px;
+    border-color: black;
+    display: inline;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#navbar2 a{
+    
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 7px;
+    
+}
+
+#navbar2 a:hover{
+    font-size: 20px;
+    border-radius: 20px;
+    color: orangered;
+}
 .maintext{
     margin-left: 40px;
     
