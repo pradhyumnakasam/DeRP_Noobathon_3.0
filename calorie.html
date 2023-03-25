@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calorie Tracker</title>
+    <link rel="stylesheet" href="stylecalorie.css">
+  </head>
+  <body>
+    <header>
+      <h1>Calorie Tracker</h1>
+    </header>
+    <main>
+      <form>
+        <h2>Add Food</h2>
+        <label for="food">Food:</label>
+        <input type="text" id="food" name="food" required>
+
+        <label for="calories">Calories:</label>
+        <input type="number" id="calories" name="calories" required>
+
+        <button type="submit">Add</button>
+      </form>
+
+      <h2>Today's Intake</h2>
+      <ul id="intake-list"></ul>
+
+      <h2>Total Calories</h2>
+      <p id="total-calories">0</p>
+    </main>
+    <footer>
+      <p>&copy; 2023 Calorie Tracker</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

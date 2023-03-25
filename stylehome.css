@@ -1,7 +1,13 @@
 body{
-    /*background-image: url('./images/workingout.jpeg');*/
+
+    background-image: url('fitImage.jpg');
     background-repeat: no-repeat;
     background-color: black;
+    background-size: cover;
+
+
+
+    
 
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,38 +16,57 @@ body{
     margin:0;
 }
 
+.zoom-in {
+    animation: zoomIn 5s;
+    transform-origin: right;
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+
 .clr{
     clear: both;
 }
 
 .container{
     width: 80%;
+    font-size: medium;
     margin: auto;
     overflow: hidden;
 }
 
 #main-header{
 
-    background-color: coral;
-    color: white;
+    color: black;
     float: left;
     width: 80%;
 
     box-sizing: border-box;
 }
+#main-header:hover{
+    background-color: none;
+}
 
 #navbar{
     float:right;
-    background-color: coral;
     color: white;
 
     width: 20%;
     height: 69px;
     box-sizing: border-box;
 }
-
+#navbar:hover, navbar2:hover{
+    background-color: none;
+}
 #navbar ul{
-    padding:10px;
+    padding:8px;
     list-style: none;
 }
 #navbar li{
@@ -51,21 +76,20 @@ body{
 }
 #navbar a{
     border-radius: 10px;
-    background-color: lightblue;
+    background-color: black;
     color: white;
     text-decoration: none;
     font-size: 16px;
-    padding: 7px;
+    padding: 10px;
     
 }
 #navbar a:hover{
     font-size: 20px;
     border-radius: 20px;
-    color: green;
+    color: white;
 }
 #navbar2{
     float:left;
-    background-color: coral;
     color: white;
 
     
@@ -87,7 +111,6 @@ body{
 }
 #navbar2 a{
     
-    background-color: coral;
     color: white;
     text-decoration: none;
     font-size: 16px;
@@ -98,7 +121,7 @@ body{
 #navbar2 a:hover{
     font-size: 20px;
     border-radius: 20px;
-    color: orangered;
+    color: coral;
 }
 .maintext{
     margin-left: 40px;
@@ -106,15 +129,31 @@ body{
 }
 
 .block1{
+    margin-right: 120px;
     background-color: white;
     color: black;
     float: left;
-    width: 33.3%;
-    margin-left:4%;
-    margin-top:2%;
+    width: 35%;
+    margin-left:6%;
+    margin-top:3%;
     border: 12px solid beige;
     border-radius: 10px;
-    padding: 10px;
+    padding: 35px;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+.block2{
+    margin-left: 120px;
+    background-color: white;
+    color: black;
+    float: right;
+    width: 35%;
+    margin-right:6%;
+    margin-top:3%;
+    border: 12px solid beige;
+    border-radius: 10px;
+    padding: 35px;
     padding-top: 0px;
     box-sizing: border-box;
 }

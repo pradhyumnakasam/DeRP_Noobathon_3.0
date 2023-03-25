@@ -1,6 +1,12 @@
 body{
-    background-color: white;
-    color: #555;
+
+    background-image: url('fitImage.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+
+    background-color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
@@ -17,57 +23,69 @@ body{
     overflow: hidden;
 }
 
-#main-header{
-
-    background-color: coral;
+#main-header {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    background-color: none;
     color: white;
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
+    padding: 20px;
 }
 
+#main-header h1{
+
+    float: left;
+    font-size: 40px;
+    margin-right: 10px;
+    margin-top: 16px;
+    color: white;
+}
+    
+nav ul {
+    margin-top: 16px;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 40px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    font-size: 18px;
+    color:coral;
+    
+    border-radius: 10px;
+    padding: 10px;
+    background-color: none;
+}
 .contact{
-    margin: 50px;
+    margin: 20px;
     padding: 40px;
 }
-
-#navbar{
-    float:right;
-    background-color: coral;
-    color: white;
-
-    width: 0%;
-    height: 68px;
-    box-sizing: border-box;
+.contact h2{
+    font-size: 40px;
 }
 
-#navbar ul{
-    padding:10px;
-    list-style: none;
+.mobilelabel{
+    float: left;
+    margin-right: 5px;
 }
-#navbar li{
-    display: inline;
-    padding-right: 10px;
-    padding-top: 10px;
-}
-#navbar a{
-    border-radius: 10px;
-    background-color: lightblue;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 7px;
-    
-}
-#navbar a:hover{
+
+.Mobile:hover{
+
     font-size: 20px;
-    border-radius: 20px;
-    color: green;
+    text-decoration-style: solid;
 }
+
 
 .maintext{
     margin-left: 40px;
-    background-color: lightblue;
+    background-color: none;
 }
 
 .list1 li{

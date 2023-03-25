@@ -1,20 +1,6 @@
-/* Reset styles */
-* {
-  
+body {
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .clr{
-    clear: both;
-  }
-
-  /* Global styles */
-  body {
-
-    background-image: url('fitImage.jpg');
+  background-image: url('fitImage.jpg');
     background-repeat: no-repeat;
     background-color: black;
     background-size: cover;
@@ -22,17 +8,23 @@
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: black;
+    
     color: white;
   }
+
+  .form-group {
+    margin: 10px;
+  }
+
   
   header {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
     background-color: none;
     color: white;
-    padding: 20px;
+    padding: 10px;
     height: 100px;
+    transition: background-color 1s;
   }
 
   header h1{
@@ -41,8 +33,9 @@
     margin-right: 50px;
   }
   
+
   nav ul {
-    margin-top: 15px;
+    margin-top: 25px;
     list-style: none;
     display: flex;
   }
@@ -59,6 +52,7 @@
   nav a:hover{
     font-size: 20px;
     color:coral;
+    
     border-radius: 10px;
     padding: 10px;
     background-color: none;
@@ -73,29 +67,11 @@
   }
   
   section {
+
+
     margin-bottom: 20px;
-    border: 1px solid black;
+    border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
-  }
-  
-  .progress-photos {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .progress-photos img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
   }
   

@@ -1,0 +1,78 @@
+body {
+
+    background-image: url('fitImage.jpg');
+      background-repeat: no-repeat;
+      background-color: black;
+      background-size: cover;
+  
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      
+      color: white;
+    }
+  
+    .form-group {
+      margin: 10px;
+    }
+  
+    
+    header {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      background-color: none;
+      color: white;
+      padding: 10px;
+      height: 100px;
+      transition: background-color 1s;
+    }
+  
+    header h1{
+  
+      float: left;
+      margin-right: 50px;
+    }
+    
+  
+    nav ul {
+      margin-top: 25px;
+      list-style: none;
+      display: flex;
+    }
+    
+    nav ul li {
+      margin-right: 20px;
+    }
+    
+    nav ul li a {
+      color: black;
+      text-decoration: none;
+    }
+    
+    nav a:hover{
+      font-size: 20px;
+      color:coral;
+      
+      border-radius: 10px;
+      padding: 10px;
+      background-color: none;
+    }
+    main {
+      padding: 20px;
+      padding-left: 100px;
+      padding-right:100px;
+    }
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+    
+    section {
+  
+  
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+    }
+    
+  
