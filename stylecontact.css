@@ -1,0 +1,92 @@
+body{
+    background-color: white;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 100%;
+    margin-left: 80px;
+    overflow: hidden;
+}
+
+#main-header{
+
+    background-color: coral;
+    color: white;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact{
+    margin: 50px;
+    padding: 40px;
+}
+
+#navbar{
+    float:right;
+    background-color: coral;
+    color: white;
+
+    width: 0%;
+    height: 68px;
+    box-sizing: border-box;
+}
+
+#navbar ul{
+    padding:10px;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#navbar a{
+    border-radius: 10px;
+    background-color: lightblue;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 7px;
+    
+}
+#navbar a:hover{
+    font-size: 20px;
+    border-radius: 20px;
+    color: green;
+}
+
+.maintext{
+    margin-left: 40px;
+    background-color: lightblue;
+}
+
+.list1 li{
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#main-footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    color: gray;
+}
+
+#bottom-motto{
+    color: white;
+    width: 30%;
+}
