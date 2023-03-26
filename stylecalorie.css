@@ -1,4 +1,10 @@
 body {
+
+  background-image: url('fitImage.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -6,10 +12,33 @@ body {
   }
   
   header {
-    background-color: #333;
+    
     color: #fff;
     padding: 20px;
-    text-align: center;
+    text-align: left;
+  }
+
+  nav ul {
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  nav a:hover{
+    font-size: 20px;
+    color:coral;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: none;
   }
   
   h1 {
@@ -27,6 +56,8 @@ body {
   form {
     display: flex;
     flex-direction: column;
+    border: black;
+    border-width: 2px;
   }
   
   label {
@@ -35,9 +66,11 @@ body {
   
   input {
     padding: 10px;
-    border: none;
+    border: black;
     border-radius: 5px;
+    border-width: 700px;
     margin-bottom: 20px;
+
   }
   
   button {

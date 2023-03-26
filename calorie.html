@@ -6,8 +6,21 @@
   </head>
   <body>
     <header>
-      <h1>Calorie Tracker</h1>
-    </header>
+      <h1>ShapeShifters</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="workouts.html">Workouts</a></li>
+        <li><a href="calorie.html">Calories</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="clr"></div>
+    <h1 style="background-color: black; width: 240px; margin: auto;">Calorie Tracker</h1>
+  </header>
+    
+    
     <main>
       <form>
         <h2>Add Food</h2>
@@ -20,12 +33,13 @@
         <button type="submit">Add</button>
       </form>
 
-      <h2>Today's Intake</h2>
-      <ul id="intake-list"></ul>
+      <h2>Total Calories Intake (DAY)</h2>
+      <p id="total-calories">1000</p>
 
-      <h2>Total Calories</h2>
-      <p id="total-calories">0</p>
+      <h2>Total Calories Intake (WEEK)</h2>
+      <p id="total-calories">8000</p>
     </main>
+
     <footer>
       <p>&copy; 2023 Calorie Tracker</p>
     </footer>
